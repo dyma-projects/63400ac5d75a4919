@@ -1,0 +1,15 @@
+<h2>Exercice 1</h2>
+<!-- Liaison sur un évènement -->
+<div class="button">
+  <button (mouseover)="coucou()">?</button>
+</div>
+<br />
+
+<!-- Liaison sur un attribut -->
+<div><input [style.background]="color" /> Nom</div>
+
+<!-- Liaison avec une interpolation de variable -->
+<div>
+  <p [attr.aria-label]="nom"></p>
+  La meilleure plateforme de formation est {{ nom }}
+</div>
